@@ -6,6 +6,14 @@ type Props = {};
 export default function Client({}: Props) {
   return (
     <section className="bg-white dark:bg-gray-900 min-h-screen">
+      <noscript>
+        <iframe
+          src="https://www.googletagmanager.com/ns.html?id=GTM-NXGNXGL6"
+          height="0"
+          width="0"
+          style={{ display: "none", visibility: "hidden" }}
+        ></iframe>
+      </noscript>
       <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
         <h2 className="mb-4 text-xl font-bold text-gray-900 dark:text-white">
           Fill the form
